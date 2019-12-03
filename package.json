@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "7.6.0",
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
     "@svgr/webpack": "4.3.2",
     "@types/jest": "24.0.23",
     "@types/node": "12.12.14",
-    "@types/react": "16.9.14",
+    "@types/react": "^16.9.14",
     "@types/react-dom": "16.9.4",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
@@ -67,7 +68,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -136,5 +139,13 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "fork-ts-checker-webpack-plugin": "^3.1.1",
+    "ts-loader": "^6.2.1"
   }
 }
