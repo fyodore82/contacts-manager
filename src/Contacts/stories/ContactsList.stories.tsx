@@ -3,8 +3,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import { ContactsList } from './ContactsList'
-import { Contacts } from '../store/contacts'
+import { ContactsList } from '../ContactsList'
+import { Contacts } from '../../store/contacts'
 
 const contacts: Contacts = {
   '123': {
@@ -28,5 +28,9 @@ const contacts: Contacts = {
 }
 
 storiesOf('ContactsList', module)
-  .add('not-edit', () => <ContactsList contacts={contacts} />)
+  .add('not-edit', () => <ContactsList
+    contacts={contacts}
+    CreateUpdateContact={() => action('CreateUpdateContact') as any}
+    DeleteContact={() => action('DeleteContact') as any}
+  />)
   ;
