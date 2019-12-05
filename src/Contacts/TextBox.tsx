@@ -8,8 +8,6 @@ const useStyles = makeStyles(theme => ({
     display: 'inline-flex',
     flexDirection: 'column',
     verticalAlign: 'top',
-    marginRight: theme.spacing(0.5),
-    minWidth: 150,
   },
   span: {
     color: 'rgba(0, 0, 0, 0.54)',
@@ -25,12 +23,13 @@ const useStyles = makeStyles(theme => ({
 
 interface TextBoxOwnProps {
   label: string;
+  className?: string;
 }
 
-export const TextBox: FC<TextBoxOwnProps> = ({ label, children }) => {
+export const TextBox: FC<TextBoxOwnProps> = ({ label, children, className }) => {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div className={`${classes.root} ${className}`}>
       <InputLabel shrink={true}>{label}</InputLabel>
       <span key='name' className={classes.span}>{children}</span>
     </div>

@@ -21,13 +21,34 @@ const useStyles = makeStyles(theme => ({
     borderRadius: '5px',
     padding: '5px',
     display: 'flex',
+    justifyContent: 'space-between',
   },
   textField: {
     marginRight: theme.spacing(0.5),
-    minWidth: 100,
+    width: '30%',
+    [theme.breakpoints.down('xs')]: {
+      width: 'unset',
+      marginBottom: '15px',
+    },
   },
-  iconButton: {
-
+  fieldsSpace: {
+    [theme.breakpoints.down('xs')]: {
+      flexDirection: 'column',
+    },
+    display: 'flex',
+    justifyContent: 'space-between',
+    width: '80%',
+  },
+  buttonsSpace: {
+    [theme.breakpoints.down('xs')]: {
+      flexDirection: 'column',
+      justifyContent: 'unset',
+      alignItems: 'flex-end',
+    },
+    display: 'flex',
+    justifyContent: 'flex-end',
+    width: '20%',
+    marginRight: '10px',
   },
 }));
 
@@ -35,7 +56,7 @@ interface ContactItemOwnProps {
   isFavorite: boolean;
   isNew?: boolean;
   className?: string;
-  
+
   contactId: string;
   name: string;
   email: string;
@@ -87,26 +108,26 @@ export const ContactItem: FC<ContactItemOwnProps> =
 
     const toggleFavorites = useCallback(
       () => { CreateUpdateContact(contactId, { name, email, phone, isFavorite: !isFavorite }) }
-    , [CreateUpdateContact, name, email, phone, isFavorite, contactId]);
+      , [CreateUpdateContact, name, email, phone, isFavorite, contactId]);
 
     return (
       <form className={`${classes.root} ${className}`} noValidate autoComplete="off">
-        <div>
+        <div className={classes.fieldsSpace}>
           {edit ?
             <>
-              <TextField error={!isNameValid} onChange={textFiledOnChange} key='name-edit' id='name-edit' className={classes.textField} label="Name" value={stateName} />
+              <TextField multiline error={!isNameValid} onChange={textFiledOnChange} key='name-edit' id='name-edit' className={classes.textField} label="Name" value={stateName} />
               <TextField error={!isEmailValid} onChange={textFiledOnChange} key='email-edit' id='email-edit' className={classes.textField} label="Email" value={stateEmail} />
               <TextField error={!isPhoneValid} onChange={textFiledOnChange} key='phone-edit' id='phone-edit' className={classes.textField} label="Phone" value={statePhone ? statePhone : ''} />
             </>
             :
             <>
-              <TextBox key='name' label='Name'>{name}</TextBox>
-              <TextBox key='email' label='Email'>{email}</TextBox>
-              <TextBox key='phone' label='Phone'>{phone}</TextBox>
+              <TextBox className={classes.textField} key='name' label='Name'>{name}</TextBox>
+              <TextBox className={classes.textField} key='email' label='Email'>{email}</TextBox>
+              <TextBox className={classes.textField} key='phone' label='Phone'>{phone}</TextBox>
             </>
           }
         </div>
-        <div className={classes.iconButton}>
+        <div className={classes.buttonsSpace}>
           <IconButton disabled={edit && !(isNameValid && isEmailValid && isPhoneValid)} edge="end" aria-label="edit" onClick={editOnClick}>
             {edit ? <SaveIcon /> : <EditIcon />}
           </IconButton>
@@ -116,9 +137,9 @@ export const ContactItem: FC<ContactItemOwnProps> =
           <IconButton edge="end" aria-label="delete" onClick={deleteOnClick}>
             <DeleteIcon />
           </IconButton>
-          <IconButton edge="end" aria-label="favorite" onClick={toggleFavorites}>
+          {!edit && <IconButton edge="end" aria-label="favorite" onClick={toggleFavorites}>
             {isFavorite ? <StarIcon /> : <StarBorderIcon />}
-          </IconButton>
+          </IconButton>}
         </div>
       </form>
     )

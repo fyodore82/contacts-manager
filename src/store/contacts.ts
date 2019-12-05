@@ -92,19 +92,24 @@ export const reducer: Reducer<ContactsState, KnownActions> = (state = initalCont
       return state.newContactId ? state : {
         ...state,
         newContactId: uuid(),
-        newContact: { name: '', email: '', isSaving: false, isFavorite: false, },
+        // If new contact created when favorites switch is ON, add contact as favorite
+        newContact: { name: '', email: '', isFavorite: state.showFavorites, },
       }
     case 'CREATE_UPDATE_CONTACT':
+      const isNewContact = state.newContactId === action.contactId;
       return {
         ...state,
         error: undefined,
-        newContactId: state.newContactId === action.contactId ? undefined : state.newContactId,
-        contacts: {
+        newContactId: isNewContact ? undefined : state.newContactId,
+        contacts: isNewContact ? {  // New contact add to top
+          [action.contactId]: action.contact,
+          ...state.contacts,
+        } : {
           ...state.contacts,
           [action.contactId]: {
             ...state.contacts[action.contactId],
             ...action.contact
-          }
+          },
         }
       }
     case 'DELETE_CONTACT':
