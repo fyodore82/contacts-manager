@@ -24,7 +24,7 @@ export interface ContactsState {
   error?: string;
 }
 
-const initalContactsState: ContactsState = {
+export const initalContactsState: ContactsState = {
   contacts: {},
   showFavorites: false,
   isLoading: false,
@@ -39,7 +39,7 @@ export const sagaActions = [
   },
 ]
 
-function* CreateUpdateContact(action: CreateUpdateContactAction) {
+export function* CreateUpdateContact(action: CreateUpdateContactAction) {
   try {
     yield call([localStorage, localStorage.setItem], action.contactId, JSON.stringify(action.contact));
     const keys: string[] = yield select<(state: ApplicationState) => string[]>(state => Object.keys(state.contacts.contacts));
@@ -50,7 +50,7 @@ function* CreateUpdateContact(action: CreateUpdateContactAction) {
   }
 }
 
-function* DeleteContact(action: DeleteContactAction) {
+export function* DeleteContact(action: DeleteContactAction) {
   try {
     yield call([localStorage, localStorage.removeItem], action.contactId);
     const keys: string[] = yield select<(state: ApplicationState) => string[]>(state => Object.keys(state.contacts.contacts));
