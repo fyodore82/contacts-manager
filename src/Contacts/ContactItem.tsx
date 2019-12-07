@@ -111,33 +111,33 @@ export const ContactItem: FC<ContactItemOwnProps> =
       , [CreateUpdateContact, name, email, phone, isFavorite, contactId]);
 
     return (
-      <form className={`${classes.root} ${className}`} noValidate autoComplete="off">
+      <form className={`${classes.root} ${className}`} noValidate autoComplete="off" data-cy='contact-form'>
         <div className={classes.fieldsSpace}>
           {edit ?
             <>
-              <TextField multiline error={!isNameValid} onChange={textFiledOnChange} key='name-edit' id='name-edit' className={classes.textField} label="Name" value={stateName} />
-              <TextField error={!isEmailValid} onChange={textFiledOnChange} key='email-edit' id='email-edit' className={classes.textField} label="Email" value={stateEmail} />
-              <TextField error={!isPhoneValid} onChange={textFiledOnChange} key='phone-edit' id='phone-edit' className={classes.textField} label="Phone" value={statePhone ? statePhone : ''} />
+              <TextField multiline error={!isNameValid} onChange={textFiledOnChange} key='name-edit' id='name-edit' data-cy='name-edit' className={classes.textField} label="Name" value={stateName} />
+              <TextField error={!isEmailValid} onChange={textFiledOnChange} key='email-edit' id='email-edit' data-cy='email-edit' className={classes.textField} label="Email" value={stateEmail} />
+              <TextField error={!isPhoneValid} onChange={textFiledOnChange} key='phone-edit' id='phone-edit' data-cy='phone-edit' className={classes.textField} label="Phone" value={statePhone ? statePhone : ''} />
             </>
             :
             <>
-              <TextBox className={classes.textField} key='name' label='Name'>{name}</TextBox>
-              <TextBox className={classes.textField} key='email' label='Email'>{email}</TextBox>
-              <TextBox className={classes.textField} key='phone' label='Phone'>{phone}</TextBox>
+              <TextBox className={classes.textField} key='name' label='Name' data-cy='name'>{name}</TextBox>
+              <TextBox className={classes.textField} key='email' label='Email' data-cy='email'>{email}</TextBox>
+              <TextBox className={classes.textField} key='phone' label='Phone' data-cy='phone'>{phone}</TextBox>
             </>
           }
         </div>
         <div className={classes.buttonsSpace}>
-          <IconButton disabled={edit && !(isNameValid && isEmailValid && isPhoneValid)} edge="end" aria-label="edit" onClick={editOnClick}>
+          <IconButton disabled={edit && !(isNameValid && isEmailValid && isPhoneValid)} edge="end" aria-label="edit-save" data-cy="edit-save" onClick={editOnClick}>
             {edit ? <SaveIcon /> : <EditIcon />}
           </IconButton>
-          {edit && <IconButton edge="end" aria-label="edit" onClick={cancelOnClick}>
+          {edit && <IconButton edge="end" aria-label="cancel" data-cy="cancel" onClick={cancelOnClick}>
             <CancelIcon />
           </IconButton>}
-          <IconButton edge="end" aria-label="delete" onClick={deleteOnClick}>
+          <IconButton edge="end" aria-label="delete" data-cy="delete" onClick={deleteOnClick}>
             <DeleteIcon />
           </IconButton>
-          {!edit && <IconButton edge="end" aria-label="favorite" onClick={toggleFavorites}>
+          {!edit && <IconButton edge="end" aria-label="favorite" data-cy="favorite" onClick={toggleFavorites}>
             {isFavorite ? <StarIcon /> : <StarBorderIcon />}
           </IconButton>}
         </div>

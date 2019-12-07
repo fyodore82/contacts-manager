@@ -68,6 +68,7 @@ export const ContactsLayout: FC<ContactsLayoutProps> =
           <div ref={containerRef} className={classes.container}>
             <div className={classes.toolBar}>
               <FormControlLabel
+                data-cy='show-favorites-switch'
                 control={<Switch checked={showFavorites} onClick={ToggleShowFavorites}/>}
                 label="Show favorite contacts"
               />
@@ -79,7 +80,7 @@ export const ContactsLayout: FC<ContactsLayoutProps> =
               CreateUpdateContact={CreateUpdateContact}
               DeleteContact={DeleteContact}
             />
-            <Fab className={classes.addButton} color="primary" aria-label="add" onClick={addButtonOnClick}>
+            <Fab className={classes.addButton} color="primary" aria-label="add" data-cy="add" onClick={addButtonOnClick}>
               <AddIcon />
             </Fab>
           </div>

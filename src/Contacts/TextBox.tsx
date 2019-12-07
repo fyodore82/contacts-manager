@@ -26,12 +26,12 @@ interface TextBoxOwnProps {
   className?: string;
 }
 
-export const TextBox: FC<TextBoxOwnProps> = ({ label, children, className }) => {
+export const TextBox: FC<TextBoxOwnProps> = ({ label, children, className, ...rest }) => {
   const classes = useStyles();
   return (
     <div className={`${classes.root} ${className}`}>
       <InputLabel shrink={true}>{label}</InputLabel>
-      <span key='name' className={classes.span}>{children}</span>
+      <span key='name' className={classes.span} {...rest}>{children}</span>
     </div>
   )
 }
