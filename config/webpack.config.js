@@ -345,6 +345,9 @@ module.exports = function(webpackEnv) {
             {
               options: {
                 cache: true,
+               /* baseConfig: {
+                  extends: ['airbnb-typescript']
+                },*/
                 formatter: require.resolve('react-dev-utils/eslintFormatter'),
                 eslintPath: require.resolve('eslint'),
                 resolvePluginsRelativeTo: __dirname,
