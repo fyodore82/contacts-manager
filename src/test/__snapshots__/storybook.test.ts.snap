@@ -1,0 +1,2209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ContactItem edit 1`] = `
+<form
+  autoComplete="off"
+  className="makeStyles-root-48 undefined"
+  data-cy="contact-form"
+  noValidate={true}
+>
+  <div
+    className="makeStyles-fieldsSpace-50"
+  >
+    <div
+      className="makeStyles-root-52 makeStyles-textField-49"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Name
+      </label>
+      <span
+        className="makeStyles-span-53"
+        data-cy="name"
+      >
+        John Doe
+      </span>
+    </div>
+    <div
+      className="makeStyles-root-52 makeStyles-textField-49"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Email
+      </label>
+      <span
+        className="makeStyles-span-53"
+        data-cy="email"
+      >
+        jhondoe@mycompany.com
+      </span>
+    </div>
+    <div
+      className="makeStyles-root-52 makeStyles-textField-49"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Phone
+      </label>
+      <span
+        className="makeStyles-span-53"
+        data-cy="phone"
+      >
+        12342345656
+      </span>
+    </div>
+  </div>
+  <div
+    className="makeStyles-buttonsSpace-51"
+  >
+    <button
+      aria-label="edit-save"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="edit-save"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="delete"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="delete"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="favorite"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="favorite"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Storyshots ContactItem edit favorite 1`] = `
+<form
+  autoComplete="off"
+  className="makeStyles-root-95 undefined"
+  data-cy="contact-form"
+  noValidate={true}
+>
+  <div
+    className="makeStyles-fieldsSpace-97"
+  >
+    <div
+      className="makeStyles-root-99 makeStyles-textField-96"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Name
+      </label>
+      <span
+        className="makeStyles-span-100"
+        data-cy="name"
+      >
+        John Doe
+      </span>
+    </div>
+    <div
+      className="makeStyles-root-99 makeStyles-textField-96"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Email
+      </label>
+      <span
+        className="makeStyles-span-100"
+        data-cy="email"
+      >
+        jhondoe@mycompany.com
+      </span>
+    </div>
+    <div
+      className="makeStyles-root-99 makeStyles-textField-96"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Phone
+      </label>
+      <span
+        className="makeStyles-span-100"
+        data-cy="phone"
+      >
+        12342345656
+      </span>
+    </div>
+  </div>
+  <div
+    className="makeStyles-buttonsSpace-98"
+  >
+    <button
+      aria-label="edit-save"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="edit-save"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="delete"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="delete"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="favorite"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="favorite"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Storyshots ContactItem not-edit 1`] = `
+<form
+  autoComplete="off"
+  className="makeStyles-root-1 undefined"
+  data-cy="contact-form"
+  noValidate={true}
+>
+  <div
+    className="makeStyles-fieldsSpace-3"
+  >
+    <div
+      className="makeStyles-root-5 makeStyles-textField-2"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Name
+      </label>
+      <span
+        className="makeStyles-span-6"
+        data-cy="name"
+      >
+        John Doe
+      </span>
+    </div>
+    <div
+      className="makeStyles-root-5 makeStyles-textField-2"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Email
+      </label>
+      <span
+        className="makeStyles-span-6"
+        data-cy="email"
+      >
+        jhondoe@mycompany.com
+      </span>
+    </div>
+    <div
+      className="makeStyles-root-5 makeStyles-textField-2"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+        data-shrink={true}
+      >
+        Phone
+      </label>
+      <span
+        className="makeStyles-span-6"
+        data-cy="phone"
+      >
+        12342345656
+      </span>
+    </div>
+  </div>
+  <div
+    className="makeStyles-buttonsSpace-4"
+  >
+    <button
+      aria-label="edit-save"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="edit-save"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="delete"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="delete"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="favorite"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="favorite"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Storyshots ContactsLayout favorites-off 1`] = `
+<div
+  className="makeStyles-root-142"
+>
+  <div
+    className="makeStyles-container-143"
+  >
+    <div
+      className="makeStyles-toolBar-144"
+    >
+      <label
+        className="MuiFormControlLabel-root"
+        data-cy="show-favorites-switch"
+      >
+        <span
+          className="MuiSwitch-root"
+        >
+          <span
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-164 MuiSwitch-switchBase MuiSwitch-colorSecondary"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={null}
+          >
+            <span
+              className="MuiIconButton-label"
+            >
+              <input
+                checked={false}
+                className="PrivateSwitchBase-input-167 MuiSwitch-input"
+                disabled={false}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="MuiSwitch-thumb"
+              />
+            </span>
+          </span>
+          <span
+            className="MuiSwitch-track"
+          />
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Show favorite contacts
+        </span>
+      </label>
+    </div>
+    <form
+      autoComplete="off"
+      className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
+      noValidate={true}
+    >
+      <div
+        className="makeStyles-fieldsSpace-213"
+      >
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Name
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="name"
+          >
+            John Doe
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Email
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="email"
+          >
+            jhondoe@mycompany.com
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Phone
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="phone"
+          >
+            12342345656
+          </span>
+        </div>
+      </div>
+      <div
+        className="makeStyles-buttonsSpace-214"
+      >
+        <button
+          aria-label="edit-save"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="favorite"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </form>
+    <form
+      autoComplete="off"
+      className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
+      noValidate={true}
+    >
+      <div
+        className="makeStyles-fieldsSpace-213"
+      >
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Name
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="name"
+          >
+            John Doe
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Email
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="email"
+          >
+            jhondoe@mycompany.com
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Phone
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="phone"
+          >
+            562819288
+          </span>
+        </div>
+      </div>
+      <div
+        className="makeStyles-buttonsSpace-214"
+      >
+        <button
+          aria-label="edit-save"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="favorite"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </form>
+    <form
+      autoComplete="off"
+      className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
+      noValidate={true}
+    >
+      <div
+        className="makeStyles-fieldsSpace-213"
+      >
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Name
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="name"
+          >
+            John Doe
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Email
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="email"
+          >
+            jhondoe@mycompany.com
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Phone
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="phone"
+          >
+            562819288
+          </span>
+        </div>
+      </div>
+      <div
+        className="makeStyles-buttonsSpace-214"
+      >
+        <button
+          aria-label="edit-save"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="favorite"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </form>
+    <form
+      autoComplete="off"
+      className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
+      noValidate={true}
+    >
+      <div
+        className="makeStyles-fieldsSpace-213"
+      >
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Name
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="name"
+          >
+            John Doe
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Email
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="email"
+          >
+            jhondoe@mycompany.com
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Phone
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="phone"
+          >
+            562819288
+          </span>
+        </div>
+      </div>
+      <div
+        className="makeStyles-buttonsSpace-214"
+      >
+        <button
+          aria-label="edit-save"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="favorite"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </form>
+    <form
+      autoComplete="off"
+      className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
+      noValidate={true}
+    >
+      <div
+        className="makeStyles-fieldsSpace-213"
+      >
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Name
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="name"
+          >
+            John Doe
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Email
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="email"
+          >
+            jhondoe@mycompany.com
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Phone
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="phone"
+          >
+            562819288
+          </span>
+        </div>
+      </div>
+      <div
+        className="makeStyles-buttonsSpace-214"
+      >
+        <button
+          aria-label="edit-save"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="favorite"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </form>
+    <form
+      autoComplete="off"
+      className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
+      noValidate={true}
+    >
+      <div
+        className="makeStyles-fieldsSpace-213"
+      >
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Name
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="name"
+          >
+            John Doe
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Email
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="email"
+          >
+            jhondoe@mycompany.com
+          </span>
+        </div>
+        <div
+          className="makeStyles-root-215 makeStyles-textField-212"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink={true}
+          >
+            Phone
+          </label>
+          <span
+            className="makeStyles-span-216"
+            data-cy="phone"
+          >
+            562819288
+          </span>
+        </div>
+      </div>
+      <div
+        className="makeStyles-buttonsSpace-214"
+      >
+        <button
+          aria-label="edit-save"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="favorite"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </form>
+    <button
+      aria-label="add"
+      className="MuiButtonBase-root MuiFab-root makeStyles-addButton-145 MuiFab-primary"
+      data-cy="add"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiFab-label"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ContactsList not-edit 1`] = `
+Array [
+  <form
+    autoComplete="off"
+    className="makeStyles-root-257 makeStyles-contactItem-256"
+    data-cy="contact-form"
+    noValidate={true}
+  >
+    <div
+      className="makeStyles-fieldsSpace-259"
+    >
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Name
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="name"
+        >
+          John Doe
+        </span>
+      </div>
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Email
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="email"
+        >
+          jhondoe@mycompany.com
+        </span>
+      </div>
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Phone
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="phone"
+        >
+          12342345656
+        </span>
+      </div>
+    </div>
+    <div
+      className="makeStyles-buttonsSpace-260"
+    >
+      <button
+        aria-label="edit-save"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="edit-save"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="delete"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="delete"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="favorite"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="favorite"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </form>,
+  <form
+    autoComplete="off"
+    className="makeStyles-root-257 makeStyles-contactItem-256"
+    data-cy="contact-form"
+    noValidate={true}
+  >
+    <div
+      className="makeStyles-fieldsSpace-259"
+    >
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Name
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="name"
+        >
+          John Doe
+        </span>
+      </div>
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Email
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="email"
+        >
+          jhondoe@mycompany.com
+        </span>
+      </div>
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Phone
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="phone"
+        >
+          562819288
+        </span>
+      </div>
+    </div>
+    <div
+      className="makeStyles-buttonsSpace-260"
+    >
+      <button
+        aria-label="edit-save"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="edit-save"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="delete"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="delete"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="favorite"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="favorite"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </form>,
+  <form
+    autoComplete="off"
+    className="makeStyles-root-257 makeStyles-contactItem-256"
+    data-cy="contact-form"
+    noValidate={true}
+  >
+    <div
+      className="makeStyles-fieldsSpace-259"
+    >
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Name
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="name"
+        >
+          John Doe
+        </span>
+      </div>
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Email
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="email"
+        >
+          jhondoe@mycompany.com
+        </span>
+      </div>
+      <div
+        className="makeStyles-root-261 makeStyles-textField-258"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+          data-shrink={true}
+        >
+          Phone
+        </label>
+        <span
+          className="makeStyles-span-262"
+          data-cy="phone"
+        >
+          562819288
+        </span>
+      </div>
+    </div>
+    <div
+      className="makeStyles-buttonsSpace-260"
+    >
+      <button
+        aria-label="edit-save"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="edit-save"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="delete"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="delete"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="favorite"
+        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="favorite"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </form>,
+]
+`;
+
+exports[`Storyshots TextBox default 1`] = `
+<div
+  className="makeStyles-root-304 undefined"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+  >
+    name
+  </label>
+  <span
+    className="makeStyles-span-305"
+  >
+    John Doe
+  </span>
+</div>
+`;
