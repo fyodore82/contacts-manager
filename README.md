@@ -4,6 +4,7 @@
 
 - The app is built with React, Redux and Redux-Saga.
   For such simple app there is no need to use Redux and Redux-Saga, but as I have enougth time I've included these technologies to showcs my skills
+- App is created with create-react-app, ejected to make config modifications.
 - Language: TypeScript
 - Library: Material-UI. But layouting is done by me with CSS.
 - Components (ContactItem, COntactLayout) are developed in isolation with StoryBook. To run use `npm run storybook`
@@ -13,8 +14,12 @@
 - End-to-end testing is done with Cypress. 
   To run do either:
   - For interactive mode 
+
         npm run start
         npm run cypress:open
   - For automatic mode
+
         npm run cypress:test
+        
   Video from last automatic run is here.
+- ESlint is used with default settings from create-react-app

@@ -11,10 +11,10 @@ import StarBorderIcon from '@material-ui/icons/StarBorder';
 import IconButton from '@material-ui/core/IconButton';
 
 import { actionCreators } from '../store/contacts';
-import { TextBox } from './TextBox'
-import { validatePhone, validateEmail, validateName } from './ContactFieldValidators'
+import { TextBox } from './TextBox';
+import { validatePhone, validateEmail, validateName } from './ContactFieldValidators';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     boxShadow: '0px 0px 5px #c7c7c7',
     backgroundColor: '#ffffff',

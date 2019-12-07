@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-describe('E2E test', function () {
-  it('Add contacts, toggle favorites, delete contact', function () {
+describe('E2E test', () => {
+  it('Add contacts, toggle favorites, delete contact', () => {
     cy.visit('/');
     // Add first contact
     cy.get('[data-cy="add"]').click();

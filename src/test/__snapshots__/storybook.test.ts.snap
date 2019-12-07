@@ -4,6 +4,7 @@ exports[`Storyshots ContactItem edit 1`] = `
 <form
   autoComplete="off"
   className="makeStyles-root-48 undefined"
+  data-cy="contact-form"
   noValidate={true}
 >
   <div
@@ -20,6 +21,7 @@ exports[`Storyshots ContactItem edit 1`] = `
       </label>
       <span
         className="makeStyles-span-53"
+        data-cy="name"
       >
         John Doe
       </span>
@@ -35,6 +37,7 @@ exports[`Storyshots ContactItem edit 1`] = `
       </label>
       <span
         className="makeStyles-span-53"
+        data-cy="email"
       >
         jhondoe@mycompany.com
       </span>
@@ -50,6 +53,7 @@ exports[`Storyshots ContactItem edit 1`] = `
       </label>
       <span
         className="makeStyles-span-53"
+        data-cy="phone"
       >
         12342345656
       </span>
@@ -59,8 +63,9 @@ exports[`Storyshots ContactItem edit 1`] = `
     className="makeStyles-buttonsSpace-51"
   >
     <button
-      aria-label="edit"
+      aria-label="edit-save"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="edit-save"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -96,6 +101,7 @@ exports[`Storyshots ContactItem edit 1`] = `
     <button
       aria-label="delete"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="delete"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -131,6 +137,7 @@ exports[`Storyshots ContactItem edit 1`] = `
     <button
       aria-label="favorite"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="favorite"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -171,6 +178,7 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
 <form
   autoComplete="off"
   className="makeStyles-root-95 undefined"
+  data-cy="contact-form"
   noValidate={true}
 >
   <div
@@ -187,6 +195,7 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
       </label>
       <span
         className="makeStyles-span-100"
+        data-cy="name"
       >
         John Doe
       </span>
@@ -202,6 +211,7 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
       </label>
       <span
         className="makeStyles-span-100"
+        data-cy="email"
       >
         jhondoe@mycompany.com
       </span>
@@ -217,6 +227,7 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
       </label>
       <span
         className="makeStyles-span-100"
+        data-cy="phone"
       >
         12342345656
       </span>
@@ -226,8 +237,9 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
     className="makeStyles-buttonsSpace-98"
   >
     <button
-      aria-label="edit"
+      aria-label="edit-save"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="edit-save"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -263,6 +275,7 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
     <button
       aria-label="delete"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="delete"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -298,6 +311,7 @@ exports[`Storyshots ContactItem edit favorite 1`] = `
     <button
       aria-label="favorite"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="favorite"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -342,6 +356,7 @@ exports[`Storyshots ContactItem not-edit 1`] = `
 <form
   autoComplete="off"
   className="makeStyles-root-1 undefined"
+  data-cy="contact-form"
   noValidate={true}
 >
   <div
@@ -358,6 +373,7 @@ exports[`Storyshots ContactItem not-edit 1`] = `
       </label>
       <span
         className="makeStyles-span-6"
+        data-cy="name"
       >
         John Doe
       </span>
@@ -373,6 +389,7 @@ exports[`Storyshots ContactItem not-edit 1`] = `
       </label>
       <span
         className="makeStyles-span-6"
+        data-cy="email"
       >
         jhondoe@mycompany.com
       </span>
@@ -388,6 +405,7 @@ exports[`Storyshots ContactItem not-edit 1`] = `
       </label>
       <span
         className="makeStyles-span-6"
+        data-cy="phone"
       >
         12342345656
       </span>
@@ -397,8 +415,9 @@ exports[`Storyshots ContactItem not-edit 1`] = `
     className="makeStyles-buttonsSpace-4"
   >
     <button
-      aria-label="edit"
+      aria-label="edit-save"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="edit-save"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -434,6 +453,7 @@ exports[`Storyshots ContactItem not-edit 1`] = `
     <button
       aria-label="delete"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="delete"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -469,6 +489,7 @@ exports[`Storyshots ContactItem not-edit 1`] = `
     <button
       aria-label="favorite"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+      data-cy="favorite"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -517,6 +538,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     >
       <label
         className="MuiFormControlLabel-root"
+        data-cy="show-favorites-switch"
       >
         <span
           className="MuiSwitch-root"
@@ -567,6 +589,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <form
       autoComplete="off"
       className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
       noValidate={true}
     >
       <div
@@ -583,6 +606,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="name"
           >
             John Doe
           </span>
@@ -598,6 +622,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="email"
           >
             jhondoe@mycompany.com
           </span>
@@ -613,6 +638,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="phone"
           >
             12342345656
           </span>
@@ -622,8 +648,9 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         className="makeStyles-buttonsSpace-214"
       >
         <button
-          aria-label="edit"
+          aria-label="edit-save"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -659,6 +686,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="delete"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -694,6 +722,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="favorite"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -731,6 +760,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <form
       autoComplete="off"
       className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
       noValidate={true}
     >
       <div
@@ -747,6 +777,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="name"
           >
             John Doe
           </span>
@@ -762,6 +793,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="email"
           >
             jhondoe@mycompany.com
           </span>
@@ -777,6 +809,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="phone"
           >
             562819288
           </span>
@@ -786,8 +819,9 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         className="makeStyles-buttonsSpace-214"
       >
         <button
-          aria-label="edit"
+          aria-label="edit-save"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -823,6 +857,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="delete"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -858,6 +893,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="favorite"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -895,6 +931,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <form
       autoComplete="off"
       className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
       noValidate={true}
     >
       <div
@@ -911,6 +948,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="name"
           >
             John Doe
           </span>
@@ -926,6 +964,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="email"
           >
             jhondoe@mycompany.com
           </span>
@@ -941,6 +980,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="phone"
           >
             562819288
           </span>
@@ -950,8 +990,9 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         className="makeStyles-buttonsSpace-214"
       >
         <button
-          aria-label="edit"
+          aria-label="edit-save"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -987,6 +1028,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="delete"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1022,6 +1064,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="favorite"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1063,6 +1106,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <form
       autoComplete="off"
       className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
       noValidate={true}
     >
       <div
@@ -1079,6 +1123,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="name"
           >
             John Doe
           </span>
@@ -1094,6 +1139,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="email"
           >
             jhondoe@mycompany.com
           </span>
@@ -1109,6 +1155,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="phone"
           >
             562819288
           </span>
@@ -1118,8 +1165,9 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         className="makeStyles-buttonsSpace-214"
       >
         <button
-          aria-label="edit"
+          aria-label="edit-save"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1155,6 +1203,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="delete"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1190,6 +1239,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="favorite"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1231,6 +1281,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <form
       autoComplete="off"
       className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
       noValidate={true}
     >
       <div
@@ -1247,6 +1298,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="name"
           >
             John Doe
           </span>
@@ -1262,6 +1314,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="email"
           >
             jhondoe@mycompany.com
           </span>
@@ -1277,6 +1330,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="phone"
           >
             562819288
           </span>
@@ -1286,8 +1340,9 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         className="makeStyles-buttonsSpace-214"
       >
         <button
-          aria-label="edit"
+          aria-label="edit-save"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1323,6 +1378,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="delete"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1358,6 +1414,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="favorite"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1399,6 +1456,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <form
       autoComplete="off"
       className="makeStyles-root-211 makeStyles-contactItem-210"
+      data-cy="contact-form"
       noValidate={true}
     >
       <div
@@ -1415,6 +1473,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="name"
           >
             John Doe
           </span>
@@ -1430,6 +1489,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="email"
           >
             jhondoe@mycompany.com
           </span>
@@ -1445,6 +1505,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
           </label>
           <span
             className="makeStyles-span-216"
+            data-cy="phone"
           >
             562819288
           </span>
@@ -1454,8 +1515,9 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         className="makeStyles-buttonsSpace-214"
       >
         <button
-          aria-label="edit"
+          aria-label="edit-save"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="edit-save"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1491,6 +1553,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="delete"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="delete"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1526,6 +1589,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
         <button
           aria-label="favorite"
           className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          data-cy="favorite"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -1567,6 +1631,7 @@ exports[`Storyshots ContactsLayout favorites-off 1`] = `
     <button
       aria-label="add"
       className="MuiButtonBase-root MuiFab-root makeStyles-addButton-145 MuiFab-primary"
+      data-cy="add"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -1608,6 +1673,7 @@ Array [
   <form
     autoComplete="off"
     className="makeStyles-root-257 makeStyles-contactItem-256"
+    data-cy="contact-form"
     noValidate={true}
   >
     <div
@@ -1624,6 +1690,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="name"
         >
           John Doe
         </span>
@@ -1639,6 +1706,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="email"
         >
           jhondoe@mycompany.com
         </span>
@@ -1654,6 +1722,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="phone"
         >
           12342345656
         </span>
@@ -1663,8 +1732,9 @@ Array [
       className="makeStyles-buttonsSpace-260"
     >
       <button
-        aria-label="edit"
+        aria-label="edit-save"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="edit-save"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1700,6 +1770,7 @@ Array [
       <button
         aria-label="delete"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="delete"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1735,6 +1806,7 @@ Array [
       <button
         aria-label="favorite"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="favorite"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1772,6 +1844,7 @@ Array [
   <form
     autoComplete="off"
     className="makeStyles-root-257 makeStyles-contactItem-256"
+    data-cy="contact-form"
     noValidate={true}
   >
     <div
@@ -1788,6 +1861,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="name"
         >
           John Doe
         </span>
@@ -1803,6 +1877,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="email"
         >
           jhondoe@mycompany.com
         </span>
@@ -1818,6 +1893,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="phone"
         >
           562819288
         </span>
@@ -1827,8 +1903,9 @@ Array [
       className="makeStyles-buttonsSpace-260"
     >
       <button
-        aria-label="edit"
+        aria-label="edit-save"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="edit-save"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1864,6 +1941,7 @@ Array [
       <button
         aria-label="delete"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="delete"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1899,6 +1977,7 @@ Array [
       <button
         aria-label="favorite"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="favorite"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1936,6 +2015,7 @@ Array [
   <form
     autoComplete="off"
     className="makeStyles-root-257 makeStyles-contactItem-256"
+    data-cy="contact-form"
     noValidate={true}
   >
     <div
@@ -1952,6 +2032,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="name"
         >
           John Doe
         </span>
@@ -1967,6 +2048,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="email"
         >
           jhondoe@mycompany.com
         </span>
@@ -1982,6 +2064,7 @@ Array [
         </label>
         <span
           className="makeStyles-span-262"
+          data-cy="phone"
         >
           562819288
         </span>
@@ -1991,8 +2074,9 @@ Array [
       className="makeStyles-buttonsSpace-260"
     >
       <button
-        aria-label="edit"
+        aria-label="edit-save"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="edit-save"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -2028,6 +2112,7 @@ Array [
       <button
         aria-label="delete"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="delete"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -2063,6 +2148,7 @@ Array [
       <button
         aria-label="favorite"
         className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+        data-cy="favorite"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
